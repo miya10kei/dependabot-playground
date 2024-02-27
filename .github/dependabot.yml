@@ -1,5 +1,6 @@
 version: 2
 updates:
-  - directory: "/"
+  - package-ecosystem: "poetry"
+    directory: "/"
     schedule:
       interval: "daily"
