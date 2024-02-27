@@ -1,0 +1,10 @@
+name: test
+
+on:
+  pull_request:
+
+jobs:
+  test:
+    steps:
+      - name: test echo
+        run: echo "${{ github.actor }}"
