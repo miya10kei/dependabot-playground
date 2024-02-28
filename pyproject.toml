@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.12"
-cryptography = "42.0.2"
+cryptography = "42.0.5"
 pillow = "10.2.0"
 
 
